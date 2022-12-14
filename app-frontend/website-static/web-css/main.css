@@ -1,0 +1,54 @@
+body{
+	position: relative;
+	width: 800px;
+	height: 588px;
+	background:  rgba(230, 55, 44, 0.9);
+}
+
+.company-name-mission-statement{
+	position: absolute;
+	width: 265px;
+	height: 72px;
+	left: calc(50% - 265px/2 - 258.5px);
+	top: 24px;
+
+	background: #F1F1F1;
+	border-radius: 21px;
+
+}
+.company-name{
+	position: absolute;
+	width: 197px;
+	height: 15px;
+	left: 62px;
+	top: 35px;
+
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+}.company-motto{
+	position: absolute;
+	width: 230px;
+	height: 36px;
+	left: 41px;
+	top: 52px;
+
+	font-family: 'Island Moments';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 31px;
+	line-height: 36px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #0D0808;
+}
